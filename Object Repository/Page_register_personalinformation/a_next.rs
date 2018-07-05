@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a__1</name>
+   <name>a_next</name>
    <tag></tag>
-   <elementGuidId>d1b0d2bf-b16a-4ffe-9bb4-072fba739516</elementGuidId>
+   <elementGuidId>b9ad8a6a-f1e8-4db6-aca5-9cb9cceb8ae2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>next</value>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -14,31 +27,17 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>class</name>
       <type>Main</type>
-      <value>deadline_choose(this,'b');</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>b</value>
+      <value>GreyBtn0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>ref_element</name>
       <type>Main</type>
-      <value>其他</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;indiLoginForm&quot;)/div[@class=&quot;dropdown_pull login_pull&quot;]/ul[@class=&quot;login_ul&quot;]/li[2]/a[1]</value>
+      <value>Object Repository/Page_register_verify_phone/iframe_mainFrame</value>
    </webElementProperties>
 </WebElementEntity>

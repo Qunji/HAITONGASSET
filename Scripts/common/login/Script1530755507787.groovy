@@ -18,41 +18,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://183.194.58.22:28190/htmw/login/loginAction_loginIndex.do')
 
-WebUI.click(findTestObject('Page_ (1)/span_'))
+WebUI.setText(findTestObject('Object Repository/Page_login/input_loginname'),'210203198412171013')
 
-WebUI.click(findTestObject('Page_ (1)/a__1'))
+WebUI.setText(findTestObject('Object Repository/Page_login/input_indiPassword'), '123456')
 
-WebUI.click(findTestObject('Page_/a_'))
+WebUI.setText(findTestObject('Object Repository/Page_login/input_loginReqVO.vercode'), '1111')
 
-WebUI.setText(findTestObject('Page_/input_accntReqVO.mobileTelNo'), '15142370650')
+WebUI.click(findTestObject('Object Repository/Page_login/input_login_indi'))
 
-WebUI.setText(findTestObject('Page_/input_vercode'), '35BB')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_login/span_verifycode'), '请输入正确的验证码')
 
-WebUI.setText(findTestObject('Page_/input_accntReqVO.verifyCode'), '1111')
-
-//WebUI.click(findTestObject('Page_/label_'))
-WebUI.clickOffset(findTestObject('Page_/label_'), -10, 1)
-
-
-WebUI.click(findTestObject('Page_/a_ (1)'))
-
-
-WebUI.setText(findTestObject('Page_/input_accntReqVO.custName'), '蒋怡')
-
-WebUI.setText(findTestObject('Page_/input_accntReqVO.certificateNo'), '210203198412171021')
-
-WebUI.setText(findTestObject('Page_/input_accntReqVO.password'), '111111')
-
-WebUI.setText(findTestObject('Page_/input_secondPassword'), '111111')
-
-WebUI.click(findTestObject('Page_/a_ (1)'))
-
-//WebUI.closeBrowser()
-
-
+WebUI.closeBrowser()

@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_accntReqVO.verifyCode</name>
+   <name>input_accntReqVO.password</name>
    <tag></tag>
-   <elementGuidId>7c043ff0-5b6c-47ec-819f-5d241ace16d1</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @id = 'verifyCode' and @name = 'accntReqVO.verifyCode' and @ref_element = 'Object Repository/Page_/iframe_mainFrame']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>fdb0e7ae-94b1-4dc8-92f7-bd274662cdc3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -20,45 +14,66 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input_box1 col_black i_b_w</value>
+      <value>input_box1 col_black checkInput</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>verifyCode</value>
+      <value>firstPassWord</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>accntReqVO.verifyCode</value>
+      <value>accntReqVO.password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>checkFirstPwd()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>6</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>密码为6位数字</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;reg_form&quot;)/table[@class=&quot;reg_tb&quot;]/tbody[1]/tr[3]/td[@class=&quot;on&quot;]/input[@id=&quot;verifyCode&quot;]</value>
+      <value>id(&quot;firstPassWord&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_/iframe_mainFrame</value>
+      <value>Object Repository/Page_register_verify_phone/iframe_mainFrame</value>
    </webElementProperties>
 </WebElementEntity>

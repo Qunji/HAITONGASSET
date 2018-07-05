@@ -3,7 +3,7 @@
    <description></description>
    <name>input_accntReqVO.mobileTelNo</name>
    <tag></tag>
-   <elementGuidId>03948966-1343-4a9f-8431-03c4ea598c74</elementGuidId>
+   <elementGuidId>f5ca741a-32e5-458b-9db6-60245f46f5fa</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,6 +12,13 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,13 +70,6 @@
       <value>if(isNaN(value))execCommand('undo');</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
@@ -81,6 +81,6 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_ (1)/iframe_mainFrame</value>
+      <value>Object Repository/Page_register_verify_phone/iframe_mainFrame</value>
    </webElementProperties>
 </WebElementEntity>

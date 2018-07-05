@@ -60,6 +60,6 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_/iframe_mainFrame</value>
+      <value>Object Repository/Page_register_verify_phone/iframe_mainFrame</value>
    </webElementProperties>
 </WebElementEntity>

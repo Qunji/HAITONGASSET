@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_accntReqVO.custName</name>
+   <name>label_agree</name>
    <tag></tag>
-   <elementGuidId>97f55f0d-2e76-43c3-8886-2fec80a40fe0</elementGuidId>
+   <elementGuidId>23c17c39-7c60-4dea-898a-f7837228f6a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@for = 'agree' and (text() = '我已阅读并同意
+										《电子签名约定书》
+				            			《网上直销交易服务协议》
+									' or . = '我已阅读并同意
+										《电子签名约定书》
+				            			《网上直销交易服务协议》
+									') and @ref_element = 'Object Repository/Page_/iframe_mainFrame']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,55 +29,44 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>for</name>
       <type>Main</type>
-      <value>text</value>
+      <value>agree</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input_box1 col_black checkInput</value>
+      <value>agr_lab</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>text</name>
       <type>Main</type>
-      <value>custName</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>accntReqVO.custName</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onblur</name>
-      <type>Main</type>
-      <value>checkCustName();</value>
+      <value>我已阅读并同意
+										《电子签名约定书》
+				            			《网上直销交易服务协议》
+									</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;custName&quot;)</value>
+      <value>/html/body/div/div/div/div[2]/form[1]/table/tbody/tr[4]/td/div/label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_/iframe_mainFrame</value>
+      <value>Object Repository/Page_register_verify_phone/iframe_mainFrame</value>
    </webElementProperties>
 </WebElementEntity>
